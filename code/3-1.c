@@ -7,8 +7,8 @@ int main() {
     int n = sizeof(names)/sizeof(names[0]);
 
     char *temp;
-    for(int i = n-1; i>0; i--) {
-        for(int j = 0; j < n; j++) {
+    for(int i = n-1; i > 0; i--) {
+        for(int j = 0; j < i; j++) {
             if(strcmp(names[j],names[j+1]) > 0) {
                 temp = names[j];
                 names[j] = names[j+1];
