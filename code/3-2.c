@@ -13,6 +13,7 @@ int main(int argc, char* argv[]) {
             }
         }
     }
+    printf("test");
 
 
     for(int i = 0; i < argc; i++) {
